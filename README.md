@@ -1,16 +1,24 @@
-# Vacurim Codex
+# Vacurim Tools
 
-A suite of digital tools designed for **manuscript researchers, students, and enthusiasts**, offering fast, accurate, and high‑quality access to digitized collections.
+A suite of free digital tools by **Vacurim Digital Infrastructure Solutions**.
 
-## ⚡ Key Features
-- **Lightweight & fast**: Runs smoothly without unnecessary complexity.
-- **Accurate results**: Ensures reliable access to manuscript resources.
-- **High‑quality downloads**: Provides exceptional image quality for detailed study.
-- **User‑friendly**: Simple interface for quick exploration and research.
+## Tools
 
-## 🌐 View the site here
-[https://migrantbirdd.github.io/vacurim-codex/](https://migrantbirdd.github.io/vacurim-codex/)
+### Currency Calculator (Toman)
+A bilingual (FA/EN) currency buy/sell calculator for Iranian exchange offices. Features dark mode, real-time calculation, and copy-to-clipboard.
 
-## 🖼 Preview
+**Use online:** [vacurim.com/tools/currency-calculator/](https://vacurim.com/tools/currency-calculator/)
 
-<img width="834" height="670" alt="Screenshot 2025-11-24 015529" src="https://github.com/user-attachments/assets/8c05fd6b-5c46-4ffd-9422-a8a7b9ad9946" />
+### Manuscript Digitizer
+High-quality digitization tools for manuscript researchers — download from eCodices, Vatican Library, and more.
+
+**Use online:** [vacurim.com/vacurim-codex/manuscript-digitizer/](https://vacurim.com/vacurim-codex/manuscript-digitizer/)
+
+---
+
+## About
+
+All tools are built and maintained by [VacurimCodex](https://vacurim.com/).
+
+- Website: [vacurim.com](https://vacurim.com/)
+- Contact: [vacurim.com/contact/](https://vacurim.com/contact/)
