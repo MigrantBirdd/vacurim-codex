@@ -3,43 +3,237 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Vacurim Tools – Free Digital Tools</title>
+  <title>Vacurim Tools — Free Digital Tools</title>
+  <meta name="description" content="A growing suite of free digital tools built by Vacurim Digital Infrastructure Solutions.">
   <style>
-    body { background: #f0f0f0; font-family: Arial, sans-serif; padding: 40px; margin: 0; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: #0a0e1a;
+      color: #e6edf3;
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 60px 24px;
+    }
+    .hero {
+      text-align: center;
+      margin-bottom: 60px;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 12px;
+      background: linear-gradient(135deg, #f0c674 0%, #d4a017 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .hero .tagline {
+      font-size: 1.15rem;
+      color: #8b949e;
+      margin-bottom: 8px;
+    }
+    .hero .brand {
+      font-size: 0.95rem;
+      color: #6e7681;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+    }
+    .hero-banner {
+      width: 100%;
+      max-height: 360px;
+      object-fit: cover;
+      border-radius: 12px;
+      margin-bottom: 32px;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+    }
+    .tools {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 24px;
+      margin-bottom: 60px;
+    }
+    .card {
+      background: #161b22;
+      border: 1px solid #21262d;
+      border-radius: 12px;
+      padding: 28px;
+      transition: transform 0.2s, border-color 0.2s;
+    }
+    .card:hover {
+      transform: translateY(-4px);
+      border-color: #f0c674;
+    }
+    .card-icon {
+      font-size: 2rem;
+      margin-bottom: 16px;
+    }
+    .card h3 {
+      font-size: 1.25rem;
+      margin-bottom: 8px;
+      color: #f0c674;
+    }
+    .card p {
+      color: #8b949e;
+      margin-bottom: 20px;
+      font-size: 0.95rem;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #f0c674;
+      color: #0a0e1a;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: 600;
+      font-size: 0.9rem;
+      transition: background 0.2s;
+    }
+    .btn:hover {
+      background: #d4a017;
+    }
+    .btn-ghost {
+      background: transparent;
+      border: 1px solid #30363d;
+      color: #e6edf3;
+    }
+    .btn-ghost:hover {
+      background: #21262d;
+    }
+    .premium {
+      background: linear-gradient(180deg, #161b22 0%, #0d1117 100%);
+      border: 1px solid #21262d;
+      border-radius: 12px;
+      padding: 32px;
+      margin-bottom: 60px;
+    }
+    .premium h2 {
+      color: #f0c674;
+      margin-bottom: 16px;
+      font-size: 1.5rem;
+    }
+    .premium p {
+      color: #8b949e;
+      margin-bottom: 20px;
+    }
+    .premium-list {
+      list-style: none;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+    .premium-list li {
+      background: #21262d;
+      padding: 16px;
+      border-radius: 8px;
+      border-left: 3px solid #f0c674;
+    }
+    .premium-list strong {
+      color: #e6edf3;
+      display: block;
+      margin-bottom: 4px;
+    }
+    .premium-list span {
+      color: #8b949e;
+      font-size: 0.85rem;
+    }
+    .promo {
+      background: linear-gradient(135deg, #1a1f2e 0%, #0d1117 100%);
+      border: 1px solid #f0c674;
+      border-radius: 12px;
+      padding: 28px;
+      text-align: center;
+      margin-bottom: 60px;
+    }
+    .promo h2 {
+      color: #f0c674;
+      margin-bottom: 12px;
+    }
+    .promo p {
+      color: #e6edf3;
+      margin-bottom: 16px;
+    }
+    footer {
+      text-align: center;
+      padding: 32px 0;
+      border-top: 1px solid #21262d;
+      color: #6e7681;
+      font-size: 0.9rem;
+    }
+    footer a {
+      color: #f0c674;
+      text-decoration: none;
+      margin: 0 8px;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
-  <section class="vacurim-tools" style="max-width:960px; margin:0 auto; background:#fff; padding:26px; border-radius:10px; box-shadow:0 4px 18px rgba(0,0,0,0.08); text-align:center;">
-    <h2 style="font-size:22px; margin:0; color:#222;">Vacurim Tools – Free Digital Tools</h2>
-    <p style="color:#555; margin:10px 0 20px 0; font-size:15px;">
-      A growing suite of free tools built by Vacurim Digital Infrastructure Solutions.
-    </p>
-
-    <div style="display:flex; flex-wrap:wrap; gap:20px; justify-content:center;">
-
-      <div style="background:#fbfbfb; border:1px solid #e3e3e3; border-radius:8px; padding:18px; width:300px; box-shadow:0 2px 6px rgba(0,0,0,0.06); display:flex; flex-direction:column; justify-content:space-between;">
-        <h3 style="font-size:18px; color:#1f2937; margin:0 0 8px; text-align:center;">Currency Calculator</h3>
-        <p style="font-size:14px; color:#555; margin:0 0 12px 0; text-align:left; flex:1;">Bilingual (FA/EN) buy/sell calculator for exchange offices. Dark mode, live results, copy to clipboard.</p>
-        <a style="display:inline-block; padding:9px 14px; border-radius:6px; background:#2563EB; color:#fff; text-decoration:none; font-weight:600;" href="https://vacurim.com/tools/currency-calculator/">Open Tool</a>
-      </div>
-
-      <div style="background:#fbfbfb; border:1px solid #e3e3e3; border-radius:8px; padding:18px; width:300px; box-shadow:0 2px 6px rgba(0,0,0,0.06); display:flex; flex-direction:column; justify-content:space-between;">
-        <h3 style="font-size:18px; color:#1f2937; margin:0 0 8px; text-align:center;">eCodices Downloader</h3>
-        <p style="font-size:14px; color:#555; margin:0 0 12px 0; text-align:left; flex:1;">Download manuscripts from e-codices and convert them into PDF format.</p>
-        <a style="display:inline-block; padding:9px 14px; border-radius:6px; background:#4a90e2; color:#fff; text-decoration:none; font-weight:600;" href="https://vacurim.com/vacurim-codex/manuscript-digitizer/">Open Tool</a>
-      </div>
-
-      <div style="background:#fbfbfb; border:1px solid #e3e3e3; border-radius:8px; padding:18px; width:300px; box-shadow:0 2px 6px rgba(0,0,0,0.06); display:flex; flex-direction:column; justify-content:space-between;">
-        <h3 style="font-size:18px; color:#1f2937; margin:0 0 8px; text-align:center;">Vatican Library Downloader</h3>
-        <p style="font-size:14px; color:#555; margin:0 0 12px 0; text-align:left; flex:1;">Download manuscripts from Vatican Library and convert them into PDF format.</p>
-        <a style="display:inline-block; padding:9px 14px; border-radius:6px; background:#4a90e2; color:#fff; text-decoration:none; font-weight:600;" href="https://vacurim.com/vacurim-codex/manuscript-digitizer/">Open Tool</a>
-      </div>
-
+  <div class="container">
+    <div class="hero">
+      <img src="docs/cover-banner.png" alt="Vacurim — Preserving the Past, Digitizing the Future" class="hero-banner">
+      <div class="brand">Vacurim Digital Infrastructure Solutions</div>
+      <h1>Vacurim Tools</h1>
+      <p class="tagline">A growing suite of free digital tools, plus premium products for manuscript research, commerce, and security.</p>
     </div>
 
-    <p style="margin-top:24px; font-size:13px; color:#999;">
-      Built by <a href="https://vacurim.com/" style="color:#2563EB; text-decoration:none;">Vacurim Digital Infrastructure Solutions</a>
-    </p>
-  </section>
+    <div class="tools">
+      <div class="card">
+        <div class="card-icon">💱</div>
+        <h3>Currency Calculator (Toman)</h3>
+        <p>Bilingual (FA/EN) buy/sell calculator for Iranian exchange offices. Dark mode, live results, copy to clipboard.</p>
+        <a href="https://vacurim.com/tools/currency-calculator/" class="btn">Open Tool</a>
+      </div>
+      <div class="card">
+        <div class="card-icon">📜</div>
+        <h3>Manuscript Digitizer</h3>
+        <p>Free online digitizer for manuscript researchers — download from eCodices, Vatican Library, and more.</p>
+        <a href="https://vacurim.com/tools/free-digitizer/" class="btn">Open Tool</a>
+      </div>
+    </div>
+
+    <div class="premium">
+      <h2>Premium Products — Codex Line</h2>
+      <p>Professional desktop applications with full feature sets, lifetime licensing, and priority support. Available for Windows, macOS, and Linux.</p>
+      <ul class="premium-list">
+        <li>
+          <strong>Swiss Codex Pro</strong>
+          <span>Download &amp; digitize e-Codices manuscripts. PDF export, batch download, quality selection.</span>
+        </li>
+        <li>
+          <strong>Vatican Codex Pro</strong>
+          <span>Download &amp; digitize DigiVatLib manuscripts. PDF export, batch download, quality selection.</span>
+        </li>
+        <li>
+          <strong>Suite Pro</strong>
+          <span>All-in-one bundle — Swiss + Vatican + future Codex products in a single license.</span>
+        </li>
+      </ul>
+      <a href="https://vacurim.com/products/" class="btn">Browse Products</a>
+    </div>
+
+    <div class="promo">
+      <h2>🎁 Welcome Promotion</h2>
+      <p>We are currently running a welcome promotion for new customers. Visit our website and apply the welcome code at checkout to receive a discount on any premium product.</p>
+      <a href="https://vacurim.com/" class="btn">Visit vacurim.com</a>
+    </div>
+
+    <footer>
+      <p>Built by <strong>Vacurim Digital Infrastructure Solutions</strong></p>
+      <p>
+        <a href="https://vacurim.com/">Website</a> ·
+        <a href="https://vacurim.com/products/">Products</a> ·
+        <a href="https://vacurim.com/pricing/">Pricing</a> ·
+        <a href="https://vacurim.com/contact/">Contact</a> ·
+        <a href="https://github.com/MigrantBirdd/vacurim-codex">GitHub</a>
+      </p>
+    </footer>
+  </div>
 </body>
 </html>
