@@ -29,7 +29,7 @@
 | **TradeLink** | Software for commerce, trade, and supply-chain workflows. | Merchants, logistics managers, B2B teams. |
 | **Security** | Digital security utilities for researchers, professionals, and organizations. | Security researchers, IT managers. |
 
-Each product line ships for **Windows**, **macOS**, and **Linux**, with lifetime, annual, and short-term pass licensing options.
+Each product line ships for **Windows**, with lifetime, annual, and short-term pass licensing options.
 
 ---
 
@@ -69,7 +69,7 @@ A free online digitizer for manuscript researchers — download from eCodices, V
 
 ## Premium Products — Codex Line
 
-Professional desktop applications with full feature sets, lifetime licensing, and priority support. Available for **Windows**, **macOS**, and **Linux**.
+Professional desktop applications with full feature sets, lifetime licensing, and priority support. Available for **Windows**.
 
 ### Vacurim Swiss Codex Pro
 Download and digitize manuscripts from the e-Codices library (Swiss manuscripts). Convert to PDF, batch download, quality selection.
@@ -104,7 +104,7 @@ All-in-one bundle — Swiss Codex + Vatican Codex + future Codex products in a s
 4. Complete checkout. You will receive a download link and license key by email.
 
 ### System Requirements
-- Windows 10/11, macOS 11+, or Linux (modern distribution).
+- Windows 10/11.
 - Active internet connection for download and activation.
 - For manuscript tools: stable connection to source library (e-Codices / DigiVatLib).
 
