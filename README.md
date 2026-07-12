@@ -72,7 +72,7 @@ A free online digitizer for manuscript researchers — download from eCodices, V
 Professional desktop applications with full feature sets, lifetime licensing, and priority support. Available for **Windows**.
 
 ### Vacurim Swiss Codex Pro
-Download and digitize manuscripts from the e-Codices library (Swiss manuscripts). Convert to PDF, batch download, quality selection.
+Download and digitize manuscripts from the e-Codices library (Swiss manuscripts). Convert to UltraHD PDF with quality selection.
 
 <p float="left">
   <img src="docs/swiss-codex-1.png" width="32%" alt="Swiss Codex — Library selection">
@@ -81,7 +81,7 @@ Download and digitize manuscripts from the e-Codices library (Swiss manuscripts)
 </p>
 
 ### Vacurim Vatican Codex Pro
-Download and digitize manuscripts from the Vatican Library (DigiVatLib). Convert to PDF, batch download, quality selection.
+Download and digitize manuscripts from the Vatican Library (DigiVatLib). Convert to UltraHD PDF with quality selection.
 
 ### Vacurim Suite Pro
 All-in-one bundle — Swiss Codex + Vatican Codex + future Codex products in a single license.
@@ -156,6 +156,7 @@ The **Vacurim brand name, logo, product names, and product binaries** are **not*
 - **Free Currency Calculator:** [vacurim.com/tools/currency-calculator/](https://vacurim.com/tools/currency-calculator/)
 - **Free Manuscript Digitizer:** [vacurim.com/tools/free-digitizer/](https://vacurim.com/tools/free-digitizer/)
 - **Contact:** [vacurim.com/contact/](https://vacurim.com/contact/)
+- **SourceForge:** [sourceforge.net/projects/vacurim-codex/](https://sourceforge.net/projects/vacurim-codex/)
 - **GitHub Welcome Promo (20% off):** [Claim link](https://vacurim.com/promo-landing/?utm_source=github&utm_medium=listing&utm_campaign=github_welcome_2026&code=GITHUBWELCOME2026&ref=github)
 
 ---
