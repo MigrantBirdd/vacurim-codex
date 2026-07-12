@@ -12,8 +12,7 @@ A bilingual (FA/EN) currency buy/sell calculator for Iranian exchange offices. F
 ### Manuscript Digitizer
 High-quality digitization tools for manuscript researchers — download from eCodices, Vatican Library, and more.
 
-**Use online:** [vacurim.com/vacurim-codex/manuscript-digitizer/](https://vacurim.com/vacurim-codex/manuscript-digitizer/)
-
+**Use online:** https://vacurim.com/tools/free-digitizer/
 ---
 
 ## About
