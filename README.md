@@ -11,9 +11,9 @@
 
 <p align="center">
   <a href="https://vacurim.com/">Website</a> ·
-  <a href="https://vacurim.com/products/">Products</a> ·
-  <a href="https://vacurim.com/tools/">Free Tools</a> ·
-  <a href="https://vacurim.com/pricing/">Pricing</a> ·
+  <a href="https://vacurim.com/vacurim-codex/manuscript-digitizer/">Products</a> ·
+  <a href="https://vacurim.com/vacurim-codex/">Tools</a> ·
+  <a href="https://vacurim.com/vacurim-codex/manuscript-digitizer/">Pricing</a> ·
   <a href="https://vacurim.com/contact/">Contact</a>
 </p>
 
@@ -33,6 +33,24 @@ Each product line ships for **Windows**, **macOS**, and **Linux**, with lifetime
 
 ---
 
+## Special Welcome Offer for GitHub Users
+
+We are running a **welcome promotion** exclusively for the GitHub community.
+
+- **Promo code:** `GITHUBWELCOME2026`
+- **Discount:** 20% off any premium product in the Codex line
+- **How to use:** Click the link below — the code is applied automatically at checkout.
+
+<p align="center">
+  <a href="https://vacurim.com/promo-landing/?utm_source=github&utm_medium=listing&utm_campaign=github_welcome_2026&code=GITHUBWELCOME2026&ref=github">
+    <strong>👉 Claim your 20% GitHub welcome discount</strong>
+  </a>
+</p>
+
+> Limited to the first 50 redemptions. Applies to Swiss Codex Pro, Vatican Codex Pro, and Suite Pro.
+
+---
+
 ## Free Online Tools
 
 These tools run in the browser, free of charge, no installation required.
@@ -42,8 +60,8 @@ A bilingual (FA/EN) buy/sell calculator for Iranian exchange offices. Features d
 
 **Use online:** [vacurim.com/tools/currency-calculator/](https://vacurim.com/tools/currency-calculator/)
 
-### Manuscript Digitizer
-High-quality digitization tools for manuscript researchers — download from eCodices, Vatican Library, and more.
+### Free Manuscript Digitizer
+A free online digitizer for manuscript researchers — download from eCodices, Vatican Library, and more.
 
 **Use online:** [vacurim.com/tools/free-digitizer/](https://vacurim.com/tools/free-digitizer/)
 
@@ -51,7 +69,7 @@ High-quality digitization tools for manuscript researchers — download from eCo
 
 ## Premium Products — Codex Line
 
-Professional desktop applications with full feature sets, lifetime licensing, and priority support.
+Professional desktop applications with full feature sets, lifetime licensing, and priority support. Available for **Windows**, **macOS**, and **Linux**.
 
 ### Vacurim Swiss Codex Pro
 Download and digitize manuscripts from the e-Codices library (Swiss manuscripts). Convert to PDF, batch download, quality selection.
@@ -68,27 +86,22 @@ Download and digitize manuscripts from the Vatican Library (DigiVatLib). Convert
 ### Vacurim Suite Pro
 All-in-one bundle — Swiss Codex + Vatican Codex + future Codex products in a single license.
 
-**Browse all products:** [vacurim.com/products/](https://vacurim.com/products/)
-
----
-
-## Special Welcome Offer
-
-We are currently running a **welcome promotion** for new customers — visit [vacurim.com](https://vacurim.com/) and apply the welcome code at checkout to receive a discount on any premium product.
+**Browse all products & pricing:** [vacurim.com/vacurim-codex/manuscript-digitizer/](https://vacurim.com/vacurim-codex/manuscript-digitizer/)
 
 ---
 
 ## Getting Started
 
 ### Use the Free Tools
-1. Visit the [Free Tools page](https://vacurim.com/tools/).
-2. Pick the tool you need — currency calculator or manuscript digitizer.
+1. Visit the [Codex Tools page](https://vacurim.com/vacurim-codex/).
+2. Pick the tool you need — currency calculator or free manuscript digitizer.
 3. Use it directly in your browser. No installation, no signup.
 
 ### Buy a Premium Product
-1. Browse the [products page](https://vacurim.com/products/).
+1. Browse the [Manuscript Digitizer product page](https://vacurim.com/vacurim-codex/manuscript-digitizer/).
 2. Choose the product that fits your workflow (Swiss Codex, Vatican Codex, or Suite).
-3. Complete checkout. You will receive a download link and license key by email.
+3. **Apply the welcome promo `GITHUBWELCOME2026` at checkout for 20% off** — or use the [auto-applied promo link](https://vacurim.com/promo-landing/?utm_source=github&utm_medium=listing&utm_campaign=github_welcome_2026&code=GITHUBWELCOME2026&ref=github).
+4. Complete checkout. You will receive a download link and license key by email.
 
 ### System Requirements
 - Windows 10/11, macOS 11+, or Linux (modern distribution).
@@ -102,7 +115,7 @@ We are currently running a **welcome promotion** for new customers — visit [va
 ```
 vacurim-codex/
 ├── README.md                  This file
-├── LICENSE                    MIT License
+├── LICENSE                    MIT License (code) + brand reservation
 ├── CONTRIBUTING.md            How to contribute
 ├── CODE_OF_CONDUCT.md         Community standards
 ├── index.html                 GitHub Pages landing page
@@ -138,11 +151,12 @@ The **Vacurim brand name, logo, product names, and product binaries** are **not*
 ## Links
 
 - **Website:** [vacurim.com](https://vacurim.com/)
-- **Products:** [vacurim.com/products/](https://vacurim.com/products/)
-- **Free Tools:** [vacurim.com/tools/](https://vacurim.com/tools/)
-- **Pricing:** [vacurim.com/pricing/](https://vacurim.com/pricing/)
+- **Codex Tools:** [vacurim.com/vacurim-codex/](https://vacurim.com/vacurim-codex/)
+- **Manuscript Digitizer (Products & Pricing):** [vacurim.com/vacurim-codex/manuscript-digitizer/](https://vacurim.com/vacurim-codex/manuscript-digitizer/)
+- **Free Currency Calculator:** [vacurim.com/tools/currency-calculator/](https://vacurim.com/tools/currency-calculator/)
+- **Free Manuscript Digitizer:** [vacurim.com/tools/free-digitizer/](https://vacurim.com/tools/free-digitizer/)
 - **Contact:** [vacurim.com/contact/](https://vacurim.com/contact/)
-- **Support:** support@vacurim.com
+- **GitHub Welcome Promo (20% off):** [Claim link](https://vacurim.com/promo-landing/?utm_source=github&utm_medium=listing&utm_campaign=github_welcome_2026&code=GITHUBWELCOME2026&ref=github)
 
 ---
 
