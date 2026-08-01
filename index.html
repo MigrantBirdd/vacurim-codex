@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vacurim Tools — Free Digital Tools</title>
+  <meta name="description" content="A growing suite of free digital tools built by Vacurim Digital Infrastructure Solutions, plus premium manuscript research products.">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: #0a0e1a;
+      color: #e6edf3;
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 60px 24px;
+    }
+    .hero {
+      text-align: center;
+      margin-bottom: 60px;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 12px;
+      background: linear-gradient(135deg, #f0c674 0%, #d4a017 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .hero .tagline {
+      font-size: 1.15rem;
+      color: #8b949e;
+      margin-bottom: 8px;
+    }
+    .hero .brand {
+      font-size: 0.95rem;
+      color: #6e7681;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+    }
+    .hero-banner {
+      width: 100%;
+      max-height: 360px;
+      object-fit: cover;
+      border-radius: 12px;
+      margin-bottom: 32px;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+    }
+    .tools {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 24px;
+      margin-bottom: 60px;
+    }
+    .card {
+      background: #161b22;
+      border: 1px solid #21262d;
+      border-radius: 12px;
+      padding: 28px;
+      transition: transform 0.2s, border-color 0.2s;
+    }
+    .card:hover {
+      transform: translateY(-4px);
+      border-color: #f0c674;
+    }
+    .card-icon {
+      font-size: 2rem;
+      margin-bottom: 16px;
+    }
+    .card h3 {
+      font-size: 1.25rem;
+      margin-bottom: 8px;
+      color: #f0c674;
+    }
+    .card p {
+      color: #8b949e;
+      margin-bottom: 20px;
+      font-size: 0.95rem;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #f0c674;
+      color: #0a0e1a;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: 600;
+      font-size: 0.9rem;
+      transition: background 0.2s;
+    }
+    .btn:hover {
+      background: #d4a017;
+    }
+    .btn-ghost {
+      background: transparent;
+      border: 1px solid #30363d;
+      color: #e6edf3;
+    }
+    .btn-ghost:hover {
+      background: #21262d;
+    }
+    .premium {
+      background: linear-gradient(180deg, #161b22 0%, #0d1117 100%);
+      border: 1px solid #21262d;
+      border-radius: 12px;
+      padding: 32px;
+      margin-bottom: 60px;
+    }
+    .premium h2 {
+      color: #f0c674;
+      margin-bottom: 16px;
+      font-size: 1.5rem;
+    }
+    .premium p {
+      color: #8b949e;
+      margin-bottom: 20px;
+    }
+    .premium-list {
+      list-style: none;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+    .premium-list li {
+      background: #21262d;
+      padding: 16px;
+      border-radius: 8px;
+      border-left: 3px solid #f0c674;
+    }
+    .premium-list strong {
+      color: #e6edf3;
+      display: block;
+      margin-bottom: 4px;
+    }
+    .premium-list span {
+      color: #8b949e;
+      font-size: 0.85rem;
+    }
+    .promo {
+      background: linear-gradient(135deg, #1a1f2e 0%, #0d1117 100%);
+      border: 1px solid #f0c674;
+      border-radius: 12px;
+      padding: 28px;
+      text-align: center;
+      margin-bottom: 60px;
+    }
+    .promo h2 {
+      color: #f0c674;
+      margin-bottom: 12px;
+    }
+    .promo p {
+      color: #e6edf3;
+      margin-bottom: 16px;
+    }
+    .promo .code {
+      display: inline-block;
+      background: #0a0e1a;
+      border: 1px dashed #f0c674;
+      color: #f0c674;
+      padding: 8px 16px;
+      border-radius: 6px;
+      font-family: "SF Mono", Menlo, Consolas, monospace;
+      font-weight: bold;
+      letter-spacing: 1px;
+      margin: 8px 0 16px 0;
+    }
+    .promo .small {
+      font-size: 0.85rem;
+      color: #8b949e;
+      margin-top: 12px;
+    }
+    footer {
+      text-align: center;
+      padding: 32px 0;
+      border-top: 1px solid #21262d;
+      color: #6e7681;
+      font-size: 0.9rem;
+    }
+    footer a {
+      color: #f0c674;
+      text-decoration: none;
+      margin: 0 8px;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="hero">
+      <img src="docs/cover-banner.png" alt="Vacurim — Preserving the Past, Digitizing the Future" class="hero-banner">
+      <div class="brand">Vacurim Digital Infrastructure Solutions</div>
+      <h1>Vacurim Tools</h1>
+      <p class="tagline">A growing suite of free digital tools, plus premium products for manuscript research, commerce, and security.</p>
+    </div>
+
+    <div class="promo">
+      <h2>GitHub Welcome Offer — 20% Off</h2>
+      <p>As a thank-you to the GitHub community, use the code below for 20% off any premium product in the Codex line.</p>
+      <div class="code">GITHUBWELCOME2026</div>
+      <br>
+      <a href="https://vacurim.com/promo-landing/?utm_source=github&utm_medium=listing&utm_campaign=github_welcome_2026&code=GITHUBWELCOME2026&ref=github" class="btn">Claim Discount (auto-applied)</a>
+      <p class="small">Limited to the first 50 redemptions. Applies to Swiss Codex Pro, Vatican Codex Pro, and Suite Pro.</p>
+    </div>
+
+    <div class="tools">
+      <div class="card">
+        <div class="card-icon">📜</div>
+        <h3>Free Manuscript Digitizer</h3>
+        <p>Free online digitizer for manuscript researchers — download from eCodices, Vatican Library, and more.</p>
+        <a href="https://vacurim.com/tools/free-digitizer/" class="btn">Open Tool</a>
+      </div>
+    </div>
+
+    <div class="premium">
+      <h2>Premium Products — Codex Line</h2>
+      <p>Professional desktop applications with full feature sets, lifetime licensing, and priority support. Available for Windows.</p>
+      <ul class="premium-list">
+        <li>
+          <strong>Swiss Codex Pro</strong>
+          <span>Download &amp; digitize e-Codices manuscripts. PDF export, batch download, quality selection.</span>
+        </li>
+        <li>
+          <strong>Vatican Codex Pro</strong>
+          <span>Download &amp; digitize DigiVatLib manuscripts. PDF export, batch download, quality selection.</span>
+        </li>
+        <li>
+          <strong>Suite Pro</strong>
+          <span>All-in-one bundle — Swiss + Vatican + future Codex products in a single license.</span>
+        </li>
+      </ul>
+      <a href="https://vacurim.com/vacurim-codex/manuscript-digitizer/" class="btn">Browse Products &amp; Pricing</a>
+    </div>
+
+    <footer>
+      <p>Built by <strong>Vacurim Digital Infrastructure Solutions</strong></p>
+      <p>
+        <a href="https://vacurim.com/">Website</a> ·
+        <a href="https://vacurim.com/vacurim-codex/">Codex Tools</a> ·
+        <a href="https://vacurim.com/vacurim-codex/manuscript-digitizer/">Manuscript Digitizer</a> ·
+        <a href="https://vacurim.com/contact/">Contact</a> ·
+        <a href="https://github.com/MigrantBirdd/vacurim-codex">GitHub</a> ·
+        <a href="https://sourceforge.net/projects/vacurim-codex/">SourceForge</a>
+      </p>
+    </footer>
+  </div>
+</body>
+</html>
